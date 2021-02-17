@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="https://unpkg.com/@tonejs/midi"></script> -->
+    <script type="module" src="scripts/index.js"></script>
+    <title>MPC 2000</title>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <div id="score">0</div>
+    <br>
+    <br>
+
+    <br>  
+    <br>
+    <button id=start>READY ?</button>
+    <br>
+    <br>
+    <div class= akai>
+    <form class= name>
+      <label for="name"></label>
+      <input type="text" id="name">
+      </form>
+    <br>
+    <br>
+    <div class="box-position">
+      <audio id="FX1" src="FX1.mp3"></audio>
+      <button data-instrument="FX1" class="box">FX 1</button>
+      <audio id="FX2" src="FX 2.mp3"></audio>
+      <button data-instrument="FX2" class="box">FX 2</button>
+      <audio id="FX3" src="FX 3.mp3"></audio>
+      <button data-instrument="FX3" class="box">FX 3</button>
+      <audio id="FX4" src="FX 4.mp3"></audio>
+      <button data-instrument="FX4" class="box">FX 4</button>
+    </div>
+    <br>
+    <div class="box-position">
+      <audio id="808" src="808.mp3"></audio>
+      <button data-instrument="808" class="box" >808</button>
+      <audio id="open-hat" src="open hat.mp3"></audio>
+      <button data-instrument="open-hat" class="box" >open hat</button>
+      <audio id="hat" src="hat 1.mp3"></audio>
+      <button data-instrument="hat" class="box" >hat</button>
+      <audio id="hat-2" src="hat 2.mp3"></audio>
+      <button data-instrument="hat-2" class="box" >hat 2</button>
+    </div>
+    <br>
+    <div class="box-position">
+      <audio id="rim-1" src="rim 1.mp3"></audio>
+      <button data-instrument="rim-1" class="box">rim</button>
+      <audio id="clap" src="clap .mp3"></audio>
+      <button data-instrument="clap" class="box">clap</button>
+      <audio id="snare-2" src="snare 2.mp3"></audio>
+      <button data-instrument="snare-2" class="box" >snare 2</button>
+      <audio id="vox" src="vox.mp3"></audio>
+      <button data-instrument="vox" class="box" >vox</button>
+    </div>
+    <br>
+    <div class="box-position">
+      <audio id="kick" src="kick.mp3"></audio>
+      <button id="kick-light" data-instrument="kick" class="box">kick</button>
+      <audio id="kick-2" src="kick 2.mp3"></audio>
+      <button data-instrument="kick-2" class="box">kick 2</button>
+      <audio id="snare" src="Snare .mp3"></audio>
+      <button id="snare-light" data-instrument="snare" class="box">snare</button>
+      <audio id="snap" src="snap 1.mp3"></audio>
+      <button data-instrument="snap"class="box">snap</button>
+    </div>
+  </div>
+
+
+  </body>
+</html>
