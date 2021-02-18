@@ -3,6 +3,7 @@
     font-family: 'Play', sans-serif;
     font-size: large ;
     text-transform: uppercase;
+    background-color: wheat;
 }
 
 
@@ -19,6 +20,8 @@
 .box-position{
     display: flex;
     justify-content: center;
+    background-color: rgb(210, 204, 204);
+
 }  
 
 @-webkit-keyframes name {
@@ -34,6 +37,7 @@
 
 .form {
     color: blue;
+    background-color: rgb(210, 204, 204);
 }
 
 #start {
@@ -51,8 +55,7 @@
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 2%;
-    box-shadow: 20px 20px 0px grey;
-
+    box-shadow: 20px 20px grey;
 }
 
 .name{
@@ -60,6 +63,7 @@
     justify-content: center;
     color: rgb(17, 136, 220) ;
     height: 8%;
+    background-color: rgb(210, 204, 204);
 }
 
 input[type=text] {
@@ -73,4 +77,9 @@ input[type=text] {
   .light{
       background-color: crimson;
       color: darkblue;
+  }
+
+  #logo{
+      width: 100px;
+      height: 100px;
   }
