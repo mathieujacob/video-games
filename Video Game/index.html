@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="https://unpkg.com/@tonejs/midi"></script> -->
+    <script type="module" src="scripts/index.js"></script>
+    <title>MPC 2000</title>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <div id="score"></div>
+    <br>
+    <br>
+    <br>  
+    <br><span>CLICK TO PLAY :</span>
+    <button id=start>READY ?</button>
+    <br>
+    <br>
+    <div class= akai>
+    <form class= name>
+      <label for="name"></label>
+      <input type="text" id="name">
+      </form>
+    <br>
+    <br>
+    <div class="box-position">
+      <audio id="FX1" src="sounds/FX1.mp3"></audio>
+      <button id="FX1-light" data-instrument="FX1" class="box"  data-key="71" >FX 1 = G </button>
+      <audio id="FX2" src="sounds/FX 2.mp3"></audio>
+      <button id="FX2-light" data-instrument="FX2" class="box"  data-key="72" >FX 2 = H </button>
+      <audio id="FX3" src="sounds/FX 3.mp3"></audio>
+      <button id="FX3-light" data-instrument="FX3" class="box"  data-key="74" >FX 3 = J</button>
+      <audio id="FX4" src="sounds/FX 4.mp3"></audio>
+      <button id="FX4-light"data-instrument="FX4" class="box"  data-key="75" >FX 4 = K </button>
+    </div>
+    <br>
+    <div class="box-position">
+      <audio id="808" src="sounds/808.mp3"></audio>
+      <button id="808-light"data-instrument="808" class="box" data-key="81" >808 = U </U></button>
+      <audio id="open-hat" src="sounds/open hat.mp3"></audio>
+      <button id="open-hat-light"data-instrument="open-hat" class="box"  data-key="83" >open hat = S </button>
+      <audio id="hat" src="sounds/hat 1.mp3"></audio>
+      <button id="hat-light" data-instrument="hat" class="box"  data-key="68" >hat = D </button>
+      <audio id="hat-2" src="sounds/hat 2.mp3"></audio>
+      <button id="hat-2-light"data-instrument="hat-2" class="box"  data-key="70" >hat 2 = F </button>
+    </div>
+    <br>
+    <div class="box-position">
+      <audio id="rim-1" src="sounds/rim 1.mp3"></audio>
+      <button id="rim-light" data-instrument="rim-1" class="box"  data-key="84" >rim = T </button>
+      <audio id="clap" src="sounds/clap .mp3"></audio>
+      <button id="clap-light" data-instrument="clap" class="box"  data-key="89" >clap = Y</button>
+      <audio id="snare-2" src="sounds/snare 2.mp3"></audio>
+      <button id="snare2-light" data-instrument="snare-2" class="box"  data-key="85" >snare 2 = U</button>
+      <audio id="vox" src="sounds/vox.mp3"></audio>
+      <button id="vox-light" data-instrument="vox" class="box" data-key="73" >vox = I </button>
+    </div>
+    <br>
+    <div class="box-position">
+      <audio id="kick" src="sounds/kick.mp3"></audio>
+      <button id="kick-light" data-instrument="kick" class="box" data-key="65">kick = A</button>
+      <audio id="kick-2" src="sounds/kick 2.mp3"></audio>
+      <button id="kick2-light" data-instrument="kick-2" class="box" data-key="90">kick 2 = Z</button>
+      <audio id="snare" src="sounds/Snare .mp3"></audio>
+      <button id="snare-light" data-instrument="snare" class="box" data-key="69">snare= E </button>
+      <audio id="snap" src="sounds/snap 1.mp3"></audio>
+      <button id="snap-light" data-instrument="snap"class="box" data-key="82">snap = R </button>
+    </div>
+  </div>
+
+
+  </body>
+</html>
